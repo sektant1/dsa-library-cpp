@@ -1,7 +1,4 @@
-// dynarray_mit_tests.cpp
 // Catch2 v3 test suite for your DynArray interface (MIT-style dynamic sequence checks)
-//
-// Assumes your header is named: DynArray.h
 //
 // Build (example):
 //   g++ -std=c++20 -O0 -g -I/path/to/catch2 -I. dynarray_mit_tests.cpp -o tests
@@ -11,7 +8,6 @@
 // - These tests are written to match the *interface you provided*:
 //   size(), capacity(), empty(), operator[], front/back, begin/end, resize/reserve,
 //   push_back/pop_back/clear, copy/move.
-// - Several tests will likely FAIL with your current implementation (that’s good: they reveal bugs).
 
 #define CATCH_CONFIG_MAIN
 #include <algorithm>
